@@ -1,0 +1,479 @@
+body {
+	width: 100%;
+	overflow: hidden;
+}
+.hide {
+	display: none;
+}
+.page {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	font-size: 100px;
+	text-align: center;
+}
+.page .wrap {
+	height: 100%;
+}
+.page-1-1 {
+	background: url(../img/11.jpg) center center no-repeat;
+	background-size: cover
+}
+.page-2-1 {
+	background: url(../img/222.jpg) center center no-repeat;
+	background-size: cover;
+}
+.page-3-1 {
+	background: url(../img/333.jpg) center center no-repeat;
+	background-size: cover;
+}
+.page-4-1 {
+	background: url(../img/333.jpg) center center no-repeat;
+	background-size: cover;
+}
+.page-5-1 {
+	background: url(../img/55.jpg) center center no-repeat;
+	background-size: cover;
+}
+.page-6-1 {
+	background: url(../img/55.jpg) center center no-repeat;
+	background-size: cover;
+}
+.page-7-1 {
+	background: url(../img/6-00.jpg) center center no-repeat;
+	background-size: cover;
+}
+.page-8-1 {
+	background: url(../img/55.jpg) center center no-repeat;
+	background-size: cover;
+}
+.page-9-1 {
+	background: url(../img/222.jpg) center center no-repeat;
+	background-size: cover;
+}
+.page-10-1 {
+	background: url(../img/333.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.page-11-1 {
+	background: url(../img/666.jpg) center center no-repeat;
+	background-size: cover;
+}
+.page-12-1 {
+	background: url(../img/88.jpg) center center no-repeat;
+	background-size: cover;
+}
+.page-13-1 {
+    background: url(../img/333.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-current {
+	z-index: 1;
+}
+.page-1-1 .img_1 {
+	height: auto;
+	width: 480px;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -240px;
+}
+.page-1-1 .img_2 {
+	height: auto;
+	width: 230px;
+	position: absolute;
+	left: 50%;
+	top: 5%;
+	z-index: 999;
+	margin-left: -115px;
+}
+.page-1-1 .img_3 {
+	height: auto;
+	width: 25px;
+	position: absolute;
+	left: 50%;
+	top: 93%;
+	margin-left: -12px;
+}
+.page-2-1 .img_1 {
+    height: auto;
+    width: 94%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-left: -44%;
+    z-index: 999;
+}
+.page-2-1 .img_2 {
+    height: auto;
+    width: 6%;
+    position: absolute;
+    top: 31%;
+    z-index: 3;
+    margin-left: -48%;
+}
+.page-2-1 .img_3 {
+    height: auto;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -23%;
+}
+.page-3-1 .img_1 {
+	height: auto;
+	width: 50%;
+	position: absolute;
+	left: 7%;
+	top: 46%;
+	z-index: 999;
+}
+.page-3-1 .img_2 {
+    height: auto;
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    margin-left: -16%;
+    top: 26%;
+}
+.page-4-1 .img_1 {
+	height: auto;
+	width: 50%;
+	position: absolute;
+	left: 7%;
+	top: 46%;
+	z-index: 999;
+}
+.page-4-1 .img_2 {
+	height: auto;
+	width: 60%;
+	position: absolute;
+	left: 50%;
+	margin-left: -16%;
+	top: 26%;
+}
+.page-5-1 .img_1 {
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    margin-left: -40%;
+    z-index: 999;
+}
+.page-5-1 .img_2 {
+	height: auto;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    margin-left: -40%;
+}
+.page-6-1 .img_1 {
+	height: auto;
+	width: 70%;
+	position: absolute;
+	left: 7%;
+	top: 18%;
+	z-index: 999;
+}
+.page-6-1 .img_2 {
+	height: auto;
+	width: 30%;
+	position: absolute;
+	left: 50%;
+	top: 49%;
+	margin-left: -15%;
+	z-index: 10;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-o-animation-delay: 2s;
+	animation-delay: 2s;
+	-webkit-animation: cc 10s linear infinite;
+	-moz-animation: cc 10s linear infinite;
+	-o-animation: cc 10s linear infinite;
+	animation: cc 10s linear infinite;
+}
+@keyframes cc {
+	from {
+		-webkit-transform: rotate(360deg) translate(100%) rotate(-360deg);
+		-moz-transform: rotate(360deg) translate(100%) rotate(-360deg);
+		-o-transform: rotate(360deg) translate(100%) rotate(-360deg);
+		transform: rotate(360deg) translate(100%) rotate(-360deg);
+	}
+	to {
+		-webkit-transform: rotate(0deg) translate(100%) rotate(0deg);
+		-moz-transform: rotate(0deg) translate(100%) rotate(0deg);
+		-o-transform: rotate(0deg) translate(100%) rotate(0deg);
+		transform: rotate(0deg) translate(100%) rotate(0deg);
+	}
+}
+.page-6-1 .img_3 {
+	height: auto;
+	width: 30%;
+	position: absolute;
+	left: 50%;
+	top: 49%;
+	margin-left: -15%;
+	z-index: 10;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-o-animation-delay: 2s;
+	animation-delay: 2s;
+	-webkit-animation: dd 10s linear infinite;
+	-moz-animation: dd 10s linear infinite;
+	-o-animation: dd 10s linear infinite;
+	animation: dd 10s linear infinite;
+}
+@keyframes dd {
+	from {
+		-webkit-transform: rotate(240deg) translate(100%) rotate(-240deg);
+		-moz-transform: rotate(240deg) translate(100%) rotate(-240deg);
+		-o-transform: rotate(240deg) translate(100%) rotate(-240deg);
+		transform: rotate(240deg) translate(100%) rotate(-240deg);
+	}
+	to {
+		-webkit-transform: rotate(-120deg) translate(100%) rotate(120deg);
+		-moz-transform: rotate(-120deg) translate(100%) rotate(120deg);
+		-o-transform: rotate(-120deg) translate(100%) rotate(120deg);
+		transform: rotate(-120deg) translate(100%) rotate(120deg);
+	}
+}
+.page-6-1 .img_4 {
+	height: auto;
+	width: 30%;
+	position: absolute;
+	left: 50%;
+	top: 49%;
+	margin-left: -15%;
+	z-index: 10;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-o-animation-delay: 2s;
+	animation-delay: 2s;
+	-webkit-animation: ee 10s linear infinite;
+	-moz-animation: ee 10s linear infinite;
+	-o-animation: ee 10s linear infinite;
+	animation: ee 10s linear infinite;
+}
+@keyframes ee {
+	from {
+		-webkit-transform: rotate(120deg) translate(100%) rotate(-120deg);
+		-moz-transform: rotate(120deg) translate(100%) rotate(-120deg);
+		-o-transform: rotate(120deg) translate(100%) rotate(-120deg);
+		transform: rotate(120deg) translate(100%) rotate(-120deg);
+	}
+	to {
+		-webkit-transform: rotate(-240deg) translate(100%) rotate(240deg);
+		-moz-transform: rotate(-240deg) translate(100%) rotate(240deg);
+		-o-transform: rotate(-240deg) translate(100%) rotate(240deg);
+		transform: rotate(-240deg) translate(100%) rotate(240deg);
+	}
+}
+.page-6-1 .img_5 {
+	height: auto;
+	width: 60%;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	margin-left: -30%;
+}
+.img_8 {
+	height: auto;
+	width: 25px;
+	position: absolute;
+	left: 50%;
+	top: 92%;
+    z-index: 9999;
+	margin-left: -12px;
+}
+.page-7-1 .img_1 {
+    height: auto;
+    width: 40%;
+    position: absolute;
+    left: 64%;
+    bottom: 5%;
+    margin-left: -10%;
+    z-index: 999;
+}
+.page-7-1 .img_2 {
+    height: auto;
+    width: 26%;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    z-index: 10;
+}
+.page-7-1 .img_3 {
+    height: auto;
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    z-index: 10;
+}
+.page-7-1 .img_4 {
+    height: auto;
+    width: 30%;
+    position: absolute;
+    left: 66%;
+    top: 44%;
+    z-index: 10;
+}
+.page-7-1 .img_5 {
+    height: auto;
+    width: 28%;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    z-index: 10;
+}
+.page-7-1 .img_6 {
+	height: auto;
+	width: 80%;
+	position: absolute;
+	left: 10%;
+	top: 34%;
+}
+.page-7-1 .img_7 {
+	height: auto;
+	width: 30%;
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	margin-left: -15%;
+}
+.page-13-1 .img_1 {
+    height: auto;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    margin-left: -20%;
+    top: 33%;
+}
+.page-13-1 .img_2 {
+	height: auto;
+	width: 250px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin-left: -50px;
+}
+.page-13-1 .img_3 {
+    height: auto;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    margin-left: -40%;
+    bottom: 24%;
+}
+.page-13-1 .img_6 {
+	height: auto;
+	width: 25px;
+	position: absolute;
+	left: 50%;
+	top: 92%;
+	margin-left: -12px;
+}
+.page-8-1 .img_1 {
+    height: auto;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin-left: -40%;
+}
+.page-8-1 .img_3 {
+	height: auto;
+    width: 42%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-left: -21%;
+}
+.page-9-1 .img_1 {
+	height: auto;
+    width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 6%;
+    margin-left: -20%;
+}
+.page-9-1 .img_3 {
+    height: auto;
+    width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    left: 7%;
+    top: 15%;
+}
+.page-9-1 .img_4 {
+    height: auto;
+    width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    left: 52%;
+    top: 15%;
+}
+.page-9-1 .img_5 {
+    height: auto;
+    width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    left: 52%;
+    top: 57%;
+}
+.page-9-1 .img_6 {
+    height: auto;
+    width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    left: 7%;
+    top: 57%;
+}
+.page-10-1 .img_1{
+    height: 30%;
+    width: 94%;
+    position: absolute;
+    left: 3%;
+    top: 6%;
+}
+.page-10-1 .img_3{
+    height: 30%;
+    width: 60%;
+    position: absolute;
+    left: 4%;
+    top: 38%;
+}
+.page-10-1 .img_4{
+    height: 15%;
+    width: 30%;
+    position: absolute;
+    left: 66%;
+    top: 38%;
+}
+.page-10-1 .img_5{
+    height: 15%;
+    width: 30%;
+    position: absolute;
+    left: 66%;
+    top: 53%;
+}
+.page-10-1 .img_6{
+    height: 24%;
+    width: 60%;
+    position: absolute;
+    left: 4%;
+    top: 70%;
+}
+.page-10-1 .img_7{
+    height: 24%;
+    width: 30%;
+    position: absolute;
+    left: 66%;
+    top: 70%;
+}
+#textsuper{position:absolute;top:-1000;left:-1000;overflow-x:hidden;overflow-y:hidden;z-index:4000}
+#textsub{color:black;position:relative;font-size:21pt;text-align:left;line-height:40pt;top:2000px}
